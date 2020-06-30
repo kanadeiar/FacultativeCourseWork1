@@ -22,6 +22,9 @@ namespace FacultativeCourseWork1
                 int.TryParse(line, out int numberHomeWork);
                 switch (numberHomeWork)
                 {
+                    case 1:
+                        HomeworkTestov.Demo(); //демонстрация
+                        break;
                     default:
                         Console.WriteLine("Нет домашней работы под таким номером!");
                         break;
