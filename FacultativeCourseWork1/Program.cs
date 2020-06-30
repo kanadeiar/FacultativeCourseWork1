@@ -30,7 +30,7 @@ namespace FacultativeCourseWork1
                         break;
                 }
             }
-            Console.WriteLine("Нажмите любую кнопку для выхода ...");
+            Console.WriteLine("Нажмите любую кнопку для выхода...");
             Console.ReadKey();
         }
     }
