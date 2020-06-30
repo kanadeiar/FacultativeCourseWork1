@@ -10,12 +10,12 @@ namespace FacultativeCourseWork1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("*** Наша курсовая работа ***");
+            Console.WriteLine("*** Наша пробная курсовая работа ***");
             while (true)
             {
                 Console.WriteLine("Выберите домашнюю работу для показа (q-выход):");
                 Console.WriteLine("1 - Домашняя работа \"Написать программу Анкета\"" +
-                                  " (выполнил: Тестов Тест Тестович)");
+                                  " (выполнил: Рассахатский)");
                 string line = Console.ReadLine();
                 if (String.Equals(line,"q"))
                     break;
@@ -23,7 +23,7 @@ namespace FacultativeCourseWork1
                 switch (numberHomeWork)
                 {
                     case 1:
-                        HomeworkTestov.Demo(); //демонстрация
+                        HomeworkKanadeiar.Demo();
                         break;
                     default:
                         Console.WriteLine("Нет домашней работы под таким номером!");
