@@ -14,6 +14,8 @@ namespace FacultativeCourseWork1
             while (true)
             {
                 Console.WriteLine("Выберите домашнюю работу для показа (q-выход):");
+                Console.WriteLine("1 - Домашняя работа \"Написать программу Анкета\"" +
+                                  " (выполнил: Тестов Тест Тестович)");
                 string line = Console.ReadLine();
                 if (String.Equals(line,"q"))
                     break;
