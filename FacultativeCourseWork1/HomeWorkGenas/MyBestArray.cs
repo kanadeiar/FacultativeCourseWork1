@@ -4,6 +4,15 @@ namespace FacultativeCourseWork1.Array_s
 {
     public class MyBestArray
     {
+       public static void CallProject()
+        {
+            PrintNameProgramme();
+            firstDimension = ValidateNumberLine();
+            secondDimension = ValidateNumberColumn();
+            arrayUser = CreateArray(arrayUser, firstDimension, secondDimension);
+            ShowMenuV2();
+        }
+
        public static int[,] arrayUser = new int[0, 0];
        public static int firstDimension = 0;
        public static int secondDimension = 0;
@@ -146,7 +155,6 @@ namespace FacultativeCourseWork1.Array_s
             }
             Console.WriteLine("Сумма элементов матрицы равна " + sum);
         }
-
 
         //Среднее арифмитическое матрицы
         public static void PrintSredneeArith(int[,] newArrayUser, int startLine, int startColumn)
@@ -392,4 +400,5 @@ namespace FacultativeCourseWork1.Array_s
             }
         }
     }
+    
 }

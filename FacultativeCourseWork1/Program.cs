@@ -18,6 +18,7 @@ namespace FacultativeCourseWork1
                     "2 - Домашняя работа \"Работа с комплексными числами\" (выполнил: Ганов)",
                     "3 - Домашняя работа \"Подсчет суммы всех положительных чисел\" (выполнил: Ганов)",
                     "4 - Домашняя работа \"Мой лучший массив\" (выполнил: Тертычный)",
+                    "5 - Домашняя работа \"Натуральные дроби\" (выполнил: Ганов)",
                 };
                 Console.Clear();
                 PrintVariants(variants);
@@ -38,12 +39,11 @@ namespace FacultativeCourseWork1
                         HomeworkGanov_Les12.Demo();
                         break;
                     case 4:
-                        MyBestArray.PrintNameProgramme();
-                        MyBestArray.firstDimension = MyBestArray.ValidateNumberLine();
-                        MyBestArray.secondDimension =MyBestArray.ValidateNumberColumn();
-                        MyBestArray.arrayUser = MyBestArray.CreateArray(MyBestArray.arrayUser, MyBestArray.firstDimension, MyBestArray.secondDimension);
-                        MyBestArray.ShowMenuV2();
-                        break;                    
+                        MyBestArray.CallProject();
+                        break;
+                    case 5:
+                        HomeworkGanov_Les13.Demo();
+                        break;
                     default:
                         Console.WriteLine("Нет домашней работы под таким номером!");
                         break;
