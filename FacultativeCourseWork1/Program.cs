@@ -18,6 +18,7 @@ namespace FacultativeCourseWork1
                     "2 - Домашняя работа \"Работа с комплексными числами\" (выполнил: Ганов)",
                     "3 - Домашняя работа \"Мой лучший массив\" (выполнил: Тертычный)",
                 };
+                Console.Clear();
                 PrintVariants(variants);
 
                 string line = Console.ReadLine();
