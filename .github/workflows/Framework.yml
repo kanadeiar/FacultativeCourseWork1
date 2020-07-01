@@ -1,0 +1,27 @@
+name: Framework
+
+on:  
+  push:
+    branches: 
+      - master
+      - dev
+  pull_request:
+    branches: 
+      - master
+      - dev
+        
+jobs:
+  build:
+    name: Build Facultative Course Work
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1        
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1.0.2        
+      - name: Restore NuGet packages
+        run: nuget restore FacultativeCourseWork1.sln
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1      
+      - name: Build The Solution
+        run: msbuild FacultativeCourseWork1.sln
