@@ -275,10 +275,12 @@ namespace FacultativeCourseWork1.Array_s
             }
             if (a == ConsoleKey.N)
             {
-                Environment.Exit(0);
+                //Environment.Exit(0);
+                goToMainMenu = true;
             }
         }
 
+        private static bool goToMainMenu = false;
         public static void ShowMenuV2()
         {
             int option = 0;
@@ -294,7 +296,7 @@ namespace FacultativeCourseWork1.Array_s
                 "Show large array.",
                 "Exit."
             };
-            while (true)
+            while (!goToMainMenu)
             {
                 Console.CursorVisible = false;
                 Console.Clear();
