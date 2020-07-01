@@ -1,8 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static System.Console;
 
 namespace FacultativeCourseWork1
@@ -17,9 +13,9 @@ namespace FacultativeCourseWork1
             WriteLine("Данное домашнее задание выполнил: Тестовый Тест");
             WriteLine("Задача 1. Написать метод, возвращающий минимальное из трёх чисел.");
             ///////////////////////////////////////////////////////////////////////////////////
-            int num1 = MyHelper.GetNumberFromConsole("Введите первое число (int)");
-            int num2 = MyHelper.GetNumberFromConsole("Введите второе число (int)");
-            int num3 = MyHelper.GetNumberFromConsole("Введите третье число (int)");
+            int num1 = getIntFromConsole("Введите первое число (int)");
+            int num2 = getIntFromConsole("Введите второе число (int)");
+            int num3 = getIntFromConsole("Введите третье число (int)");
             int numMininmal = GetMinimalFromThreeNumbers(num1, num2, num3); //нахождение минимального числа из трех
             WriteLine($"Минимальное число это - {numMininmal}");
             Console.ReadKey();
@@ -42,6 +38,24 @@ namespace FacultativeCourseWork1
                 return n2;
             }
             return n3;
+        }
+        /// <summary>
+        /// Получение числа с консоли
+        /// </summary>
+        /// <param name="message"></param>
+        /// <returns></returns>
+        private static int getIntFromConsole(string message)
+        {
+            while (true)
+            {
+                Write($"{message}:>");
+                if (int.TryParse(ReadLine(), out int number))
+                {
+                    return number;
+                }
+                WriteLine("Ошибка! Введен неверный формат целого числа!");
+                Beep(500,500);
+            }
         }
     }
 }
