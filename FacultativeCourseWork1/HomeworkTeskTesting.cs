@@ -9,6 +9,9 @@ namespace FacultativeCourseWork1
 {
     class HomeworkTesting
     {
+        /// <summary>
+        /// Демонтрация домашней работы
+        /// <summary>
         public static void Demo()
         {
             WriteLine("Данное домашнее задание выполнил: Тестовый Тест");
