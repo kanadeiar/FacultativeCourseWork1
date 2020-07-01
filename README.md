@@ -1,6 +1,6 @@
 ![Framework](https://github.com/kanadeiar/FacultativeCourseWork1/workflows/Framework/badge.svg)
 
-# FacultativeCourseWork1
+# FacultativeCourseWork
 Факультативная курсовая работа C# шарписта 1-го уровня.
 
 >Выполняется в группе из нескольких участников, желающих повысить свои навыки групповой разработки проектов, а также продемонстрировать свои лучшие выполненные домашние задания.
