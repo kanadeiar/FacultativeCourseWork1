@@ -44,11 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HomeworkGanov_Les12.cs" />
+    <Compile Include="HomeworkGanov\HomeworkGanov_Les13.cs" />
+    <Compile Include="HomeworkGanov\HomeworkGanov_Les12.cs" />
     <Compile Include="HomeWorkGenas\MyBestArray.cs" />
     <Compile Include="HomeWorkGenas\TwoDimensionExtesnion.cs" />
-    <Compile Include="HomeworkGanov_Les11.cs" />
-    <Compile Include="HomeworkKanadeiar.cs" />
+    <Compile Include="HomeworkGanov\HomeworkGanov_Les11.cs" />
+    <Compile Include="HomeworkKanadeiar\HomeworkKanadeiar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
