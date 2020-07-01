@@ -16,7 +16,8 @@ namespace FacultativeCourseWork1
                     "Выберите домашнюю работу для показа (q-выход):",
                     "1 - Домашняя работа \"Написать программу Анкета\" (выполнил: Рассахатский)",
                     "2 - Домашняя работа \"Работа с комплексными числами\" (выполнил: Ганов)",
-                    "3 - Домашняя работа \"Мой лучший массив\" (выполнил: Тертычный)",
+                    "3 - Домашняя работа \"Подсчет суммы всех положительных чисел\" (выполнил: Ганов)"
+                    "4 - Домашняя работа \"Мой лучший массив\" (выполнил: Тертычный)",
                 };
                 Console.Clear();
                 PrintVariants(variants);
@@ -34,6 +35,9 @@ namespace FacultativeCourseWork1
                         HomeworkGanov_Les11.Demo();
                         break;
                     case 3:
+                        HomeworkGanov_Les12.Demo();
+                        break;
+                    case 4:
                         MyBestArray.PrintNameProgramme();
                         MyBestArray.firstDimension = MyBestArray.ValidateNumberLine();
                         MyBestArray.secondDimension =MyBestArray.ValidateNumberColumn();
