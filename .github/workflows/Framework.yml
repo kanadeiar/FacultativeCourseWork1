@@ -2,13 +2,13 @@ name: Framework
 
 on:  
   push:
-    branches: master
+    branches: master, dev
   pull_request:
-    branches: master
+    branches: master, dev
         
 jobs:
   build:
-    name: Build .NET Framework
+    name: Build Facultative Course Work
     runs-on: windows-latest
     steps:
       - name: Checkout
