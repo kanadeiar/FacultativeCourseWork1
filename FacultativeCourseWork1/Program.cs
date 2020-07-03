@@ -19,6 +19,8 @@ namespace FacultativeCourseWork1
                     "3 - Домашняя работа \"Подсчет суммы всех положительных чисел\" (выполнил: Ганов)",
                     "4 - Домашняя работа \"Мой лучший массив\" (выполнил: Тертычный)",
                     "5 - Домашняя работа \"Натуральные дроби\" (выполнил: Ганов)",
+                    "6 - Домашняя работа \"Минимальное из трех чисел\" (выполнил: Тестович)",
+                    "7 - Домашняя работа \"Расчет индекса массы тела\" (выполнил: Самигуллин А.И.)",
                 };
                 Console.Clear();
                 PrintVariants(variants);
@@ -43,6 +45,12 @@ namespace FacultativeCourseWork1
                         break;
                     case 5:
                         HomeworkGanov_Les13.Demo();
+                        break;
+                    case 6:
+                        HomeworkTesting.Demo();
+                        break;
+                    case 7:
+                        HomeWorkSamigullin.Run();
                         break;
                     default:
                         Console.WriteLine("Нет домашней работы под таким номером!");
