@@ -51,6 +51,7 @@
     <Compile Include="HomeworkGanov\HomeworkGanov_Les11.cs" />
     <Compile Include="HomeworkKanadeiar\HomeworkKanadeiar.cs" />
     <Compile Include="HomeWorkKulik\Lesson02Task5_BMI.cs" />
+    <Compile Include="HomeWorkKulik\Lesson03Task3_Divides.cs" />
     <Compile Include="HomeWorkSamigullin\HomeWorkSamigullin.cs" />
     <Compile Include="HomeworkTestTesting\HomeworkTeskTesting.cs" />
     <Compile Include="Program.cs" />
