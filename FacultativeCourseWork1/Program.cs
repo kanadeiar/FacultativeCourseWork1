@@ -22,6 +22,7 @@ namespace FacultativeCourseWork1
                     "6 - Домашняя работа \"Минимальное из трех чисел\" (выполнил: Тестович)",
                     "7 - Домашняя работа \"Расчет индекса массы тела\" (выполнил: Самигуллин А.И.)",
                     "8 - Домашняя работа \"Расчет индекса массы тела\" (выполнил: Кулик А.А.)",
+                    "9 - Домашняя работа \"Работа с дробями\" (выполнил: Кулик А.А.)",
                 };
                 Console.Clear();
                 PrintVariants(variants);
@@ -55,6 +56,9 @@ namespace FacultativeCourseWork1
                         break;
                     case 8:
                         HomeWorkKulik.Lesson02Task5_BMI.EvalBMI();
+                        break;
+                    case 9:
+                        HomeWorkKulik.Lesson03Task3_Divides.Run();
                         break;
                     default:
                         Console.WriteLine("Нет домашней работы под таким номером!");
