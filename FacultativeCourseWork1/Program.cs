@@ -58,6 +58,7 @@ namespace FacultativeCourseWork1
                         HomeWorkKulik.Lesson02Task5_BMI.EvalBMI();
                         break;
                     case 9:
+                        HomeWorkKulik.Lesson03Task3_Divides.Run();
                         break;
                     default:
                         Console.WriteLine("Нет домашней работы под таким номером!");
