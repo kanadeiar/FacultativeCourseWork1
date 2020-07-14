@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task5
+namespace FacultativeCourseWork1.HomeWorkKulik
 {
 	class Program
 	{

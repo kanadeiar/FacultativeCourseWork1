@@ -2,7 +2,7 @@
 using System.IO;
 using System.Collections.Generic;
 
-namespace Task5
+namespace FacultativeCourseWork1.HomeWorkKulik
 {
 	class TwoDimArray
 	{

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{FE56A8D5-78BF-481A-9F5D-67A0510CF2D1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Task5</RootNamespace>
-    <AssemblyName>Task5</AssemblyName>
+    <RootNamespace>FaFacultativeCourseWork1.HomeWorkKulik</RootNamespace>
+    <AssemblyName>HomeWorkKulik</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
