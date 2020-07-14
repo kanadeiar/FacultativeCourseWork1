@@ -67,6 +67,7 @@
     <Compile Include="HomeworkKanadeiar\HomeworkKanadeiar.cs" />
     <Compile Include="HomeWorkKulik\Lesson02Task5_BMI.cs" />
     <Compile Include="HomeWorkKulik\Lesson03Task3_Divides.cs" />
+    <Compile Include="HomeWorkKulik\Lesson04Task5_TwoDimArrays.cs" />
     <Compile Include="HomeWorkSamigullin\HomeWorkSamigullin.cs" />
     <Compile Include="HomeworkTestTesting\HomeworkTeskTesting.cs" />
     <Compile Include="Program.cs" />
@@ -86,6 +87,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HomeWorkKulik\IntArray.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
